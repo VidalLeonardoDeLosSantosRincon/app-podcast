@@ -11,6 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage":"https://vidalleonardodelossantosrincon.github.io/app-podcast",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "next": "^8.0.3",
