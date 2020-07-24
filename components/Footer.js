@@ -5,7 +5,7 @@ const Footer = (props)=>{
     return(
         <Fragment>
                 <footer className="footer">
-    <h4>Vidal L. De Los Santos 2019 - {new Date.getFullYear()}&copy;</h4>
+    <h4>Vidal L. De Los Santos 2019 - {new Date().getFullYear()}&copy;</h4>
                 </footer>
 
             <style jsx>{`
