@@ -7,6 +7,7 @@ import Error from "next/error";
 //components
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 class Home extends Component{
 
@@ -23,7 +24,7 @@ class Home extends Component{
     
     componentDidMount(){
         this.handleBackToHome();
-    }
+    }   
 
     static async getInitialProps(res){
         try{
@@ -62,6 +63,7 @@ class Home extends Component{
                             ))
                         }
                     </div>
+                    <Footer/>
                 <style jsx>{`
                     *{
                         padding:0;
